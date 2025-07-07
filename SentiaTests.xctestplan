@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "BBD96DAF-FAAC-442A-A40A-8F91C53C326B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:Sentia.xcodeproj",
+        "identifier" : "D3AA3E222E17366800E21C71",
+        "name" : "SentiaTests"
+      }
+    }
+  ],
+  "version" : 1
+}

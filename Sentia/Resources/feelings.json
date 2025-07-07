@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Triste",
+    "emoji": "😢",
+    "feelings": [
+      { "name": "Deprimido", "emoji": "😞" },
+      { "name": "Desmotivado", "emoji": "😔" },
+      { "name": "Sozinho", "emoji": "😥" }
+    ]
+  },
+  {
+    "name": "Ansioso",
+    "emoji": "😰",
+    "feelings": [
+      { "name": "Medo", "emoji": "😰" },
+      { "name": "Preocupado", "emoji": "😟" },
+      { "name": "Estressado", "emoji": "😤" }
+    ]
+  },
+  {
+    "name": "Neutro",
+    "emoji": "😐",
+    "feelings": [
+      { "name": "Neutro", "emoji": "😐" },
+      { "name": "Cansado", "emoji": "😴" },
+      { "name": "Entediado", "emoji": "🫥" }
+    ]
+  },
+  {
+    "name": "Feliz",
+    "emoji": "😄",
+    "feelings": [
+      { "name": "Feliz", "emoji": "😄" },
+      { "name": "Animado", "emoji": "🤩" },
+      { "name": "Grato", "emoji": "🙏" }
+    ]
+  },
+  {
+    "name": "Inspirado",
+    "emoji": "🌟",
+    "feelings": [
+      { "name": "Surpreso", "emoji": "😯" },
+      { "name": "Esperançoso", "emoji": "🌈" },
+      { "name": "Determinado", "emoji": "💪" }
+    ]
+  }
+]
