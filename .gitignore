@@ -23,4 +23,6 @@ fastlane/screenshots/
 
 # Secrets
 Sentia/App/Secrets.plist
-Sentia/App/Secrets.plist
+
+# Ignorar arquivos do macOS
+.DS_Store
