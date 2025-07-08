@@ -24,11 +24,24 @@ O projeto foi desenhado com o propósito de demonstrar:
 - ✅ Organização por **Feature Modules** (`Features/Conversation`, `Features/Diary`, etc).
 - ✅ Separação clara entre camadas: Model, Service, ViewModel, View.
 
-## 🧪 Testes
+## 🧪 Cobertura de Testes
 
-O projeto inclui testes unitários robustos utilizando o framework `XCTest`. A cobertura atinge 100% em todos os arquivos de lógica de negócio e ViewModels.
+O projeto inclui testes unitários robustos utilizando o framework `XCTest`.
 
-📉 Ainda não cobrimos as Views SwiftUI diretamente por decisão técnica de não utilizar bibliotecas externas como `ViewInspector`.
+- ✅ A cobertura atual está em **69%** do bundle `Sentia.app`.
+- ✅ **100% de cobertura** nos principais arquivos de lógica de negócio e `ViewModel`s.
+- ⚠️ As `Views` em `SwiftUI` **ainda não foram testadas**, por decisão de não incluir bibliotecas externas como `ViewInspector`.
+
+### ✅ O que já testamos
+- Fluxos assíncronos com Combine e URLSession.
+- Persistência local com FileManager.
+- Casos de erro e sucesso nas camadas de serviço.
+- Salvamento e remoção de entradas no diário emocional.
+
+### 🔄 O que podemos fazer para aumentar a cobertura:
+- ✔️ Testar a camada de `View` usando [`ViewInspector`](https://github.com/nalexn/ViewInspector).
+- ✔️ Criar mais testes que verifiquem interações visuais e de navegação.
+- ✔️ Simular cenários de falha no carregamento e na persistência.
 
 ## 🔐 Segredos e Chaves de API
 

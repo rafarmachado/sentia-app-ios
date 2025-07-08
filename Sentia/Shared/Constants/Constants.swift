@@ -14,13 +14,7 @@ enum Constants {
         static let code = 1
         static let message = "Arquivo feelings.json não encontrado"
     }
-    enum MainTabView {
-        static let feel = "Sentir"
-        static let feelImage = "face.smiling"
-        static let diary = "Diário"
-        static let diaryImage = "book"
-    }
-        
+    
     enum Splash {
         static let splash_image = "splash_logo"
     }
@@ -28,7 +22,6 @@ enum Constants {
     enum Home {
         static let navigationTitle = "Sentia"
         static let title = "Como você está se sentindo?"
-        static let buttonLabel = "Falar sobre isso"
         static let characterLimit = 150
         static let errorLoadFeeling = "Erro ao carregar sentimentos:"
         static let groupFeelingsTitle = "Sentimentos em"
@@ -41,15 +34,6 @@ enum Constants {
     }
 
     enum Conversation {
-        static let errorMessage = "Algo deu errado ao se comunicar com a IA."
-        static let emptyMessageWarning = "Por favor, escreva algo antes de enviar."
-        static let errorTitle = "Erro:"
-        static let progressMessage = "Gerando resposta…"
-        static let savedSuccessMessage = "Salvo no diário com sucesso"
-        static let retryButtonTitle = "Ouvir sobre isso"
-        static let saveButtonTitle = "Salvar no diário"
-        static let noResponseFallback = "Sem resposta"
-        static let systemPromptTemplate = "Você é um assistente emocional. Ajude o usuário a entender em no máximo 150 caracteres sobre se sentir %@."
         static let prompt = "Hoje estou me sentindo"
         static let title = "Sentia"
         static let savedMessageSuccess = "Salvo no diário com sucesso"
